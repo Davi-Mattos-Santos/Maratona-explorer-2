@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration:  none;
+  }
+  
+  html {
+    /*variaveis*/
+    --bg-color : #EDF2FF;
+    --text-color: #00082F;
+    --primary-color : #4263EB;
+    --primary-color-dark : #364FC7;
+  }
+  
+  body.dark-blue {
+    --bg-color: #00082F;
+    --text-color: #FFFFFF;
+  }
+  
+  body.green {
+    --bg-color:  #98FB98;
+    --text-color: #000000;
+    --primary-color : #7CFC00;
+    --primary-color-dark : #228B22;
+  }
+  
+  body.dark-green {
+    --bg-color: #40826D;
+    --text-color: #FFFFFF;
+    --primary-color : #2E8B57;
+    --primary-color-dark : #9FE2BF;
+  }
+  
+  body.dark-pink {
+    --bg-color: #1F000B;
+    --text-color: #FFFFFF;
+    --primary-color : #D3666C;
+    --primary-color-dark : #A61E4D;
+  }
+  
+  body.pink {
+    --bg-color: #FFF0F6;
+    --text-color: #1F000B;
+    --primary-color : #D3666C;
+    --primary-color-dark : #A61E4D;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 32px;
+  }
+  
+  p.username {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400px;
+    font-size: 18px;
+    opacity: 0.8;
+  }
+  
+  a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .container {
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  img.foto {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 4px var(--primary-color) solid;
+    padding: 3.7px;
+  }
+  
+  ul {
+    list-style:  none;
+    margin: 48px 0px
+  }
+  
+  ul li a {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    margin-bottom: 16px;
+    border-radius: 6px;
+  
+    transition: background 400ms;
+  }
+  
+  ul li a:hover {
+    background-color: var(--primary-color-dark);
+  }
+  
+  footer {
+    font-weight: 500px;
+    font-size: 12px;
+    opacity: 0.6;
+    transition: opacity 400ms;
+  }
+  
+  footer:hover {
+    opacity: 1;
+  }
